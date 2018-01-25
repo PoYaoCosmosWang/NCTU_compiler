@@ -553,7 +553,7 @@ simple_stmt		: var_ref OP_ASSIGN boolean_expr MK_SEMICOLON
 						fprintf(out,"Boolean()Z\ni");
 						break;
 					case REAL_t:
-						fprintf(out,"Real()F\nf");
+						fprintf(out,"Float()F\nf");
 						break;
 
 				}
